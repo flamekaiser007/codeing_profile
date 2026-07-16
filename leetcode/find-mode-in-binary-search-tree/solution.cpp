@@ -14,6 +14,7 @@ public:
      int currVal = 0;
         int currCount = 0;
         int maxCount = 0;
+    vector<int> modes;               // Store mode(s)
 
 void inorder(TreeNode* root)
 {
